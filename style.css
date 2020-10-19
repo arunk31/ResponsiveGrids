@@ -20,7 +20,7 @@
   padding-bottom: 10px;
 }
 .main {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .grids_layout {
   float: left;
@@ -29,6 +29,22 @@
 .buttons_layout {
   float: left;
   width: 25%;
+}
+.buttons {
+  margin: 5px;
+  background-color: #72c3dc;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0 3px #2b8ead;
+  width: 80%;
+}
+.buttons:hover {
+  background-color: #2b8ead;
+  box-shadow: 0 3px #72c3dc;
 }
 .owner {
   color: #333333;
@@ -59,5 +75,11 @@
   }
   .buttons_layout {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons {
+    max-width: 120px;
   }
 }
