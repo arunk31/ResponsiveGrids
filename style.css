@@ -53,6 +53,9 @@
   text-align: center;
   margin: 15px;
 }
+.footer {
+    clear:left;
+}
 
 @media (max-width: 375px) {
   .root {
