@@ -35,4 +35,12 @@ function getNode(element) {
   return item;
 }
 
+function onShuffleClick() {
+    displayGrid(data.sort(() => Math.random() - 0.5))
+}
+
+function onSortClick() {
+    displayGrid(data.sort((a, b) => a.id - b.id))
+}
+
 displayGrid(data);
